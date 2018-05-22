@@ -1,5 +1,6 @@
 {
   "name": "tiempo-cli",
+  "description": "A simple CLI to show you the weather.",
   "version": "0.0.1",
   "main": "index.js",
   "repository": "git@github.com:iagodahlem/tiempo-cli.git",
