@@ -1,4 +1,4 @@
-const error = require('../../utils/error')
+const error = require('../../src/utils/error')
 
 describe('error', () => {
   beforeEach(() => {

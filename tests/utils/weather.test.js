@@ -1,6 +1,6 @@
 const axios = require('axios')
 const MockAdapter = require('axios-mock-adapter')
-const getWeather = require('../../utils/weather')
+const getWeather = require('../../src/utils/weather')
 
 describe('weather', () => {
   const axiosMock = new MockAdapter(axios)

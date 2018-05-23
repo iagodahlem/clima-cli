@@ -1,5 +1,5 @@
-const helpCommand = require('../../commands/help')
-const menus = require('../../constants/menus')
+const helpCommand = require('../../src/commands/help')
+const menus = require('../../src/constants/menus')
 
 describe('help command', () => {
   const call = (arg) => {

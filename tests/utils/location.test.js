@@ -1,6 +1,6 @@
 const axios = require('axios')
 const MockAdapter = require('axios-mock-adapter')
-const getLocation = require('../../utils/location')
+const getLocation = require('../../src/utils/location')
 
 describe('location', () => {
   const axiosMock = new MockAdapter(axios)

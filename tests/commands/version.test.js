@@ -1,4 +1,4 @@
-const versionCommand = require('../../commands/version')
+const versionCommand = require('../../src/commands/version')
 
 describe('version command', () => {
   beforeEach(() => {
