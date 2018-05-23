@@ -10,12 +10,6 @@ Install it as a global package from NPM.
 npm install --global tiempo-cli
 ```
 
-Or with yarn.
-
-```sh
-yarn global add tiempo-cli
-```
-
 ## Usage
 
 > TODO: Write usage instructions
