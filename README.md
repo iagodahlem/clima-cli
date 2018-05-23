@@ -4,10 +4,10 @@ A simple CLI to show you the weather.
 
 ## Install
 
-Install it as a global package from NPM.
+Install it as a global package.
 
 ```sh
-npm install --global tiempo-cli
+npm i tiempo-cli -g
 ```
 
 ## Usage
