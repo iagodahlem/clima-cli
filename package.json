@@ -7,17 +7,26 @@
   "homepage": "https://github.com/iagodahlem/tiempo-cli",
   "author": "Iago Dahlem Lorensini <iagodahlemlorensini@gmail.com>",
   "license": "MIT",
+  "preferGlobal": true,
   "bin": {
     "tiempo": "bin/tiempo"
   },
-  "engines": {
-    "node": ">=8"
+  "scripts": {
+    "test": "jest",
+    "test:watch": "yarn test --watch",
+    "test:coverage": "yarn test --coverage"
   },
-  "preferGlobal": true,
   "dependencies": {
     "axios": "^0.18.0",
     "minimist": "^1.2.0",
     "ora": "^2.1.0"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.15.0",
+    "jest": "^22.4.4"
+  },
+  "engines": {
+    "node": ">=8"
   },
   "keywords": [
     "cli",
