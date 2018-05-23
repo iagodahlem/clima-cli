@@ -16,7 +16,6 @@
   "preferGlobal": true,
   "dependencies": {
     "axios": "^0.18.0",
-    "esm": "^3.0.36",
     "minimist": "^1.2.0",
     "ora": "^2.1.0"
   },
