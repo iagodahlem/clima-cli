@@ -1,5 +1,7 @@
 # tiempo-cli
 
+[![Build Status](https://travis-ci.org/iagodahlem/tiempo-cli.svg?branch=master)](https://travis-ci.org/iagodahlem/tiempo-cli)
+
 A simple CLI to show you the weather.
 
 ## Install
