@@ -21,8 +21,11 @@
     "ora": "^2.1.0"
   },
   "keywords": [
+    "cli",
     "weather",
     "forecast",
-    "rain"
+    "rain",
+    "time",
+    "sunny"
   ]
 }
