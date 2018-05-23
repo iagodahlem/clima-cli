@@ -13,8 +13,8 @@
   },
   "scripts": {
     "test": "jest",
-    "test:w": "jest --watch",
-    "test:c": "jest --coverage"
+    "test:watch": "yarn test --watch",
+    "test:coverage": "yarn test --coverage"
   },
   "dependencies": {
     "axios": "^0.18.0",
