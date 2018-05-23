@@ -19,16 +19,16 @@ module.exports = () => {
 
   switch (cmd) {
     case 'today':
-      require('./cmds/today')(args)
+      require('./commands/today')(args)
       break
     case 'forecast':
-      require('./cmds/forecast')(args)
+      require('./commands/forecast')(args)
       break
     case 'version':
-      require('./cmds/version')(args)
+      require('./commands/version')(args)
       break
     case 'help':
-      require('./cmds/help')(args)
+      require('./commands/help')(args)
       break
     default:
       error({

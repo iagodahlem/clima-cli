@@ -18,10 +18,4 @@ const menus = {
     --location, -l ..... the location to use`,
 }
 
-module.exports = (args) => {
-  const sub = args._[0] === 'help'
-    ? args._[1]
-    : args._[0]
-
-  console.log(menus[sub] || menus.main)
-}
+module.exports = menus
