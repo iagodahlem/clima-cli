@@ -1,7 +1,7 @@
-# tiempo-cli
+# clima-cli
 
-[![Build Status](https://travis-ci.org/iagodahlem/tiempo-cli.svg?branch=master)](https://travis-ci.org/iagodahlem/tiempo-cli)
-[![Codecov Status](https://codecov.io/gh/iagodahlem/tiempo-cli/branch/master/graph/badge.svg)](https://codecov.io/gh/iagodahlem/tiempo-cli)
+[![Build Status](https://travis-ci.org/iagodahlem/clima-cli.svg?branch=master)](https://travis-ci.org/iagodahlem/clima-cli)
+[![Codecov Status](https://codecov.io/gh/iagodahlem/clima-cli/branch/master/graph/badge.svg)](https://codecov.io/gh/iagodahlem/clima-cli)
 
 A simple CLI to show you the weather.
 
@@ -10,13 +10,13 @@ A simple CLI to show you the weather.
 Install it as a global package.
 
 ```sh
-npm i tiempo-cli -g
+npm i clima-cli -g
 ```
 
 ## Usage
 
 ```md
-tiempo [command] <options>
+clima [command] <options>
 
 today .............. show weather for today
 forecast ........... show ten day weather forecast

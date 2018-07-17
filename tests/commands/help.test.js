@@ -30,7 +30,7 @@ describe('help command', () => {
     })
   })
 
-  describe('`tiempo help <command>`', () => {
+  describe('`clima help <command>`', () => {
     it('logs the `forecast` menu', () => {
       call('help forecast')
 

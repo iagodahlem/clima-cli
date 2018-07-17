@@ -1,15 +1,15 @@
 {
-  "name": "tiempo-cli",
+  "name": "clima-cli",
   "description": "A simple CLI to show you the weather.",
   "version": "0.0.2",
   "main": "index.js",
-  "repository": "git@github.com:iagodahlem/tiempo-cli.git",
-  "homepage": "https://github.com/iagodahlem/tiempo-cli",
+  "repository": "git@github.com:iagodahlem/clima-cli.git",
+  "homepage": "https://github.com/iagodahlem/clima-cli",
   "author": "Iago Dahlem Lorensini <iagodahlemlorensini@gmail.com>",
   "license": "MIT",
   "preferGlobal": true,
   "bin": {
-    "tiempo": "bin/tiempo"
+    "clima": "bin/clima"
   },
   "scripts": {
     "test": "jest",
